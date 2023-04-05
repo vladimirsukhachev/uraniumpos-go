@@ -41,13 +41,13 @@ uranium-pos secrets init --data-dir uraniumpos
 git clone https://github.com/UraniumEcosystem/Genesis_UraniumPoS
 ```
 ```shell
-cd Genesis_UraniumPoS
+cd Genesis_UraniumPoS/1_523_470_blocks
 ```
 ```shell
-mv genesis.json ../
+mv genesis.json .../
 ```
 ```shell
-mv * ../uraniumpos
+mv * .../uraniumpos
 ```
 ```shell
 uranium-pos server --data-dir ./uraniumpos chain genesis.json --libp2p 0.0.0.0:1479 --nat 0.0.0.0 --seal --grpc-address 0.0.0.0:8555
